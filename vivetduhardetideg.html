@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta property="og:image" content="img/fbOGimage.png"/>
+<meta property="og:title" content="Vi vet du har det i deg | Blodbanken i Oslo"/>
+<meta property="og:description" content="Vi vet du har det i deg. Vi har det alle i oss, blod altså. Men har du det _i_ deg? Har du det i deg å gi litt fra deg, for å redde noen andre sitt liv?"/>
+<meta property="og:url" content=""/>
+<meta property="og:site_name" content="Blodbanken i Oslo"/>
+<meta property="og:type" content="test"/>
+    
+<title>Vi vet du har det i deg | Blodbanken i Oslo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="css/animate.min.css">
+
+<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="mstile-144x144.png">
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=449975201815087";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+        	<a href="#section1" class="navbar-brand"><img id="blodLogo" src="img/blodbankenLogo-hvit.png" alt="Blodbanken i Oslo"></a>
+        	<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>	
+            </button>
+        </div>
+        
+        <div class="collapse navbar-collapse navHeaderCollapse">
+        	<ul class="nav navbar-nav navbar-right">
+            	<li><a href="#registrering">BLI BLODGIVER</a></li>
+                <li><a href="#blodkalkulator">Blodkalkulatoren</a></li>
+                <li><a href="#section8">Hvem kan gi blod?</a></li>
+                <li><a href="#section10">Om blodgivning</a></li>
+            </ul>
+        </div>
+	</div>
+</div>
+
+<div id="mainContent">
+	<div id="row1wrapper">
+    	<section id="section1">
+        	<img src="img/foto_mann.png">
+            <div class="container">
+                <div class="tittelTekst">
+                    <h1 class="tittelLinje1">Vi vet du har det i deg</h1>
+                    <h2 class="tittelLinje2">- men har du det <span class="utheving">i</span> deg?</h2>
+                    <p id="toppScrollTekst"><i class="fa fa-angle-double-down fa-3x"></i></p>
+                </div>
+                
+            </div>    
+        </section>
+    </div>
+        
+    <div id="mobilRegBtnSection">
+        <div class="container">
+            <a href="#registrering"><input id="mobilRegBtn" class="redBtn" type="button" value="Meld deg som blodgiver her!"></a>
+        </div>
+    </div>
+    
+    <div id="row2wrapper">
+    	<section id="blodkalkulator">
+        	<div class="container">
+            	<div id="kalkulatorWrapper">
+            		<p id="kalkulatorToppTekst" class="hovedTekst">Alle har blod, men ikke like mye.<br /> 
+							Vet du hvor mye blod du har i deg?</p>
+                    <p id="tastInnTekst">Tast inn</p>  
+                    <div id="kalkInputWrapper">
+                        <input id="kjonnTxt" type="text" placeholder="Kjønn (M for mann - K for kvinne)" required>  
+                        <input id="alderTxt" type="text" placeholder="Alder" required>
+                        <input id="hoydeTxt" type="text" placeholder="Høyde (i cm)" required>
+                        <input id="vektTxt" type="text" placeholder="Vekt (i kg)" required><br/>
+                        <input id="kalkulerBtn" class="redBtn" type="button" value="Se hvor mye du har i deg!">
+                    </div>    
+                </div>
+                <div id="resultatWrapper">
+                	<p id="resultatTekst" class="hovedTekst"></p>
+                    <a href="#registrering"><input id="tilRegistreringBtn" class="redBtn" type="button" value="Meld deg som blodgiver her!"></a>
+                    <p>&nbsp;</p>
+                    <div class="fb-share-button" data-href="http://www.vivetduhardetideg.no/#blodkalkulator" data-type="button_count"></div>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-text="Hvor mye blod har du i deg? Regn ut her. Har du det i deg?" data-lang="no" data-hashtags="jeghardetimeg">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </div>            
+            </div>
+        </section>
+    </div>
+    
+    <div id="row3wrapper">
+    	<section id="section3">
+        	<div class="container">
+                <div class="treSpalteWrapper">
+                    <article class="treSpalteArticle" id="kolonne1">
+                        <img class="infoIllustrasjon" src="img/blodpose.png" alt="Blodpose">
+                        <h1 class="treSpalteTittel">Stort behov</h1>
+                        <p>Blodbanken i Oslo trenger blod fra 1000 blodgivere hver uke for å kunne levere nok blod til alle pasientene. Derfor er det viktig at behovet for blodgivere 
+    blir dekket.</p>
+                    </article>
+                    <article class="treSpalteArticle" id="kolonne2">
+                        <img class="infoIllustrasjon" src="img/clock-icon-hi.png" alt="Klokke">
+                        <h1 class="treSpalteTittel">Fort gjort!</h1>
+                        <p>Det tar ikke lang tid å gi blod. Hele prosessen tar <strong>maks 30 minutter.</strong><br />I Blodbanken får du mat og drikke, i tillegg til en liten premie når du er ferdig. Istedenfor premie kan du velge at Blodbanken skal donere bort en sum til Kreftforeningen. </p>
+                    </article>
+                    <article class="treSpalteArticle" id="kolonne3">
+                        <img class="infoIllustrasjon" src="img/pasient.png" alt="Blodpose">
+                        <h1 class="treSpalteTittel">Mottakerne</h1>
+                        <p>Personer med blødersykdom, kreft, gravide som opplever komplikasjoner ved fødsel, og personer som har vært utsatt for ulykker.</p>
+                    </article>
+                </div>    
+            </div>
+        </section>
+    </div>
+    
+    <div id="row4wrapper">
+    	<section id="section4">
+        	<div class="container">
+            	<p class="hovedTekst" id="stedTxt"><strong>Her kan du gi blod i Oslo:</strong><br />
+<a href="http://www.blodbanken-oslo.no/praktisk/hvor.html"><i class="fa fa-plus-circle"></i> Ullevål universitetssykehus</a><br />
+ <a href="http://www.blodbanken-oslo.no/praktisk/hvor.html"><i class="fa fa-plus-circle"></i> Røde Kors i Hausmanns gate</a><br />
+<a href="http://www.blodbanken-oslo.no/blodbanken/blodbussen.html"><i class="fa fa-plus-circle"></i> Blodbussen</a></p>
+                <div id="datavisTrigger"></div>
+            </div>
+        </section>
+    </div>
+    
+    <div id="row5wrapper">
+    	<section id="section5">
+        	<div class="container">
+            	<div id="datavisWrapper">
+            		<p class="hovedTekst">Oslo trenger <strong>4000</strong> nye blodgivere<br /> for å dekke byens behov</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <div id="row6wrapper">
+    	<section id="section6">
+       	 <img src="img/foto_dame.png" alt="Bli Blodgiver">
+        	<div class="container">
+            	<h1 class="dameTekst">Én person kan<br />kanskje virke lite...</h1>
+            </div>
+        </section>
+    </div>
+    
+    <div id="row7wrapper">
+    	<section id="section7">
+        	<div class="container">
+            	<p class="hovedTekst">...men én blodgivning kan være med på å redde tre liv!</p>
+                <div id="section7innerWrapper">
+                    <img id="blodposeHvit" src="img/blodpose_hvit.png">
+                    <div id="erLikTegn">=</div>
+                    <img class="mannHvit" src="img/mann_hvit.png">
+                    <img class="mannHvit" src="img/mann_hvit.png">
+                    <img class="mannHvit" src="img/mann_hvit.png">
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <div id="row8wrapper">
+    	<section id="section8">
+        	<div class="container">
+            	<p class="hovedTekst">Hvem kan gi blod?</p>
+                <p class="infoTekstSynlig" id="section8infoTekstSynlig">Hovedregelen er at alle friske mennesker mellom 18 og 60 år kan melde seg som blodgivere og eventuelt gi blod til fylte 70 år.<br />Nye blodgivere kan aksepteres inntil 65 års alder etter vurdering av lege.</p>
+                <p id="section8lesMer">Les mer...</p>
+                <div id="section8infoTekstSkjult">
+                <article class="infoTekstSpalte"><p>Blodoverføring må ikke skade verken blodgiver eller mottaker. Derfor vurderer Blodbanken hver giver nøye. Når du skal gi blod fyller du ut et skjema for blodgivere om din helse og blir intervjuet av en bioingeniør, sykepleier eller lege.<br/>
+Kontroll ved en blodgivning er ingen fullstendig helsesjekk, så dersom du pleier å gå til lege for kontroll av helsen din, bør du fortsette med det.<p/></article>
+				<article class="infoTekstSpalte"><p>Vi må være sikre på at blodet ikke overfører infeksjonssykdommer. Ved hver givning blir du derfor spurt om du har vært i situasjoner med økt risiko for smitte med HIV eller hepatitt.<br/>I mange land forekommer infeksjonssykdommer som kan smitte med blod. Derfor er det også restriksjoner på føde- og oppvekststed. I noen tilfeller kan det hende at en blodgiver må ha kortere eller lengre pauser med å gi blod. <a href="http://www.blodbanken-oslo.no/blodgivning/ikke.html">Dette kan du lese mer om her!</a>
+				</p></article>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <div id="row9wrapper">
+    	<section id="registrering">
+        	<div class="container">
+            <div id="regWrapper">
+            	<p id="meldDegTittel" class="hovedTekst">Meld deg som blodgiver i dag!</p>
+                <div id="regSkjema" class="col-md-6">
+                	<input id="fornavnTxt" type="text" placeholder="Fornavn" name="cf_fornavn" required>
+                    <input id="etternavnTxt" type="text" placeholder="Etternavn" name="cf_etternavn" required>
+                    <input id="foedselsaarTxt" type="text" placeholder="Fødselsår" name="cf_foedselsaar">
+                    <input id="telefonTxt" type="text" placeholder="Telefon-nr" name="cf_telefon" required>
+                    <input id="registrerBtn" type="submit" value="Registrer" onClick="visEtterRegistreringScreen()">
+                </div>
+                <div id="regInfo" class="col-md-6">
+                <p><strong>Ved å registrere deg samtykker du til at Blodbanken i Oslo kan lagre din informasjon i 3 måneder.</strong><br /><br />Når du registrerer deg sendes din kontaktinformasjon til Blodbanken i Oslo. Du vil bli kontaktet på telefon av en av våre medarbeidere, som vil informere deg videre om din rolle som blodgiver, og avtale med deg hvor og når din første time vil finne sted.<br /><a href="http://www.blodbanken-oslo.no/praktisk/forste.html">Mer info finner du her...</a></p></div>
+            </div>
+            </div>
+            <div id="registreringFerdigWrapper">
+                	<p id="registreringFerdigTekst" class="hovedTekst">JA! Du har det i deg!</p>
+                    <p class="hovedTekst">Vi trenger enda flere blodgivere.<br />Har dine venner det i seg?</p>
+                    
+                    <div class="fb-share-button" data-href="http://www.vivetduhardetideg.no" data-type="button_count"></div>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-text="Jeg har meldt meg som blodgiver. Har du det i deg?" data-lang="no" data-hashtags="jeghardetimeg">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					<p id="registreringFerdigJegHarDetTekst">#jeghardetimeg</p>
+            </div> 
+        </section>
+    </div>
+    
+    <div id="row10wrapper">
+    	<section id="section10">
+        	<div class="container">
+            	<p class="hovedTekst">Om blodgivning</p>
+                <p class="infoTekstSynlig" id="section10infoTekstSynlig">De fleste friske mennesker mellom 18 og 65 år og som veier over 50 kilo vil kunne bli blodgiver.</p>
+                <p id="section10lesMer">Les mer...</p>
+                <div id="section10infoTekstSkjult">
+                    <article class="infoTekstSpalte"><p>Dersom en bruker medisiner bør en forhøre seg med Blodbanken før en melder seg. Da slipper en å møte opp til en registrering som ikke kan gjennomføres.<br/><br />Gjelder medisinbruken/helseproblemene en alvorlig kronisk sykdom, hjerteproblemer, kreft, har en hatt hepatitt eller vært i risikosituasjon for HIV-smitte skal en ikke gi blod. Fullstendige regler for blodgivertjenesten finnes på "Veileder for Transfusjonstjenesten", utgitt av Heldedirektoratet.<p/></article>
+                    <article class="infoTekstSpalte"><p>I motsetning til mange andre livsviktige legemidler kan blod hverken kjøpes eller fremstilles kunstig. Mange kan i dag ikke overleve uten blodoverføring - disse er avhengig av hjelp fra medmennesker. Det å gi blod tar kun en halv time - og foregår under nøye overvåking.<br/><br/>De fleste mennesker vil ikke trenge mye blod i løpet av sitt liv. Men noen trenger mye, kanskje opptil 200 poser i løpet av en skade/operasjon. Derfor er det viktig å ha nok givere - og at blodbankene har nok blod på lageret sitt.</p></article>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <div id="row11wrapper">
+    	<section id="section11">
+        	<img src="img/foto_par.png" alt="Bli Blodgiver"> <!-- SOURCE: https://flic.kr/p/emfDi3 -->
+        	<div class="container">
+            	<div class="section11tittelTekst" id="section11Txt">
+                    <h1 class="tittelLinje1">Har du det i deg?</h1>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer id="mainFooter">
+    	<div class="container">
+            <p class="hovedTekst">Vi vet du har det i deg</p>
+            <div id="socialWrapper"><a href="https://www.facebook.com/blodbankenoslo" target="_blank"><img src="img/fbIkon.png" alt="Facebook-logo"></a><a href="https://twitter.com/BlodbankenOslo" target="_blank"><img src="img/twitterIkon.png" alt="Twitter-logo"></a><a href="#"><img src="img/instaIkon.png" alt="Instagram-logo"></a></div>
+            <p class="footerTekst">Blodbanken i Oslo | <a href="http://www.blodbanken-oslo.no/">www.blodbanken-oslo.no</a><br />&nbsp;</p>
+            <a href="https://twitter.com/search?q=%23jeghardetimeg&src=typd&f=realtime" target="_blank"><p class="hovedTekst"><strong>#jeghardetimeg</strong></p></a>
+            <p class="footerTekst">2014 - Ida Kristine Tømmervik, Erik Rydning, Kristina Løvbakken &amp; Nicklas Svendsrud</p>
+        </div>    
+    </footer>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/mainJS.js"></script>  
+    <!--
+<script src="js/datavis.js"></script>
+<script src="js/blodkalkulator.js"></script>
+<script src="js/registrering.js"></script>
+    -->
+ 
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+</body>
+</html>

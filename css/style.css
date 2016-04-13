@@ -1,0 +1,801 @@
+@charset "UTF-8";
+/* CSS Document */
+/*---------------HEADER-------------------*/
+#blodLogo{
+	margin: 0 auto;
+	padding: 0;
+	width: 135px;
+	display: inline;
+	}
+#viVetHeading {
+	display: inline;
+	margin-left: 1%;
+	}	
+
+/*---------------SECTION 1-------------------*/		
+#section1 {
+	position: relative;
+	}
+#section1 img, #section6 img, #section11 img {
+	width: 100%;
+	}
+.tittelTekst {
+	position: absolute;
+	bottom: 50%;
+	}
+.tittelLinje1 {
+	color: #efefef;
+	background-color: #a50000;
+	}	
+.tittelLinje2 {
+	color: #a50000;
+	background-color: #efefef;
+	}
+.tittelLinje1, .tittelLinje2 {
+	font-weight: 300;
+	font-size: 3em;
+	padding: 10px 20px;
+	}	
+.utheving {
+	font-style: italic;
+	}
+#toppScrollTekst {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 2em;
+	color: rgba(255, 255, 255, 0.2);
+	animation: scrollHint 2s 0s infinite ease;
+	-webkit-animation: scrollHint 2s 0s infinite ease;
+	-moz-animation: scrollHint 2s 0s infinite ease;
+	-o-animation: scrollHint 2s 0s infinite ease;
+	-ms-animation: scrollHint 2s 0s infinite ease;
+	}	
+
+#mobilRegBtnSection {
+    display: none;
+}
+
+/*---------------SECTION 2 KALKULATOR-------------------*/	
+#kalkulatorWrapper {
+	padding: 120px 0 150px 0;
+	text-align: center;
+	opacity: 0;
+	}	
+.hovedTekst {
+	font-size: 3em;
+	font-weight: 300;
+	margin-bottom: 30px;
+	text-align: center;
+	}
+#kalkInputWrapper {
+	width: 85%;
+	margin: 0 auto;
+	}	
+#kalkulatorWrapper input {
+	width: 35%;
+	background-color: #fff;
+	border: none;
+	margin: 10px;
+	height: 50px;
+	text-align: center;
+	font-style: italic;
+	font-size: 1.2em;
+	box-shadow: 0 0 1px #999;
+	}	
+#kalkulerBtn {
+	margin-top: 25px !important;
+	font-style: normal !important;
+	background-color: #a50000 !important;
+	border-radius: 5px;
+	color: #efefef;
+	}
+	
+#resultatWrapper {
+	display: none;
+	padding: 120px 0 150px 0;
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+	}	
+
+#tilRegistreringBtn {
+	width: 35%;
+	margin-top: 25px !important;
+	font-size: 1.2em;
+	font-style: normal !important;
+	background-color: #a50000 !important;
+	border-radius: 5px;
+	color: #efefef;
+	border: none;
+	margin: 10px;
+	height: 50px;
+	text-align: center;
+	}	
+.twitter-share-button{
+	transform: translateY(5px);
+	-webkit-transform: translateY(5px);
+	}	
+
+/*---------------SECTION 3 INFO-------------------*/
+#section3 {
+	background-color: #c8c8c8;
+	padding: 120px 0;
+	}
+.treSpalteWrapper {
+	padding: auto;
+	}	
+.treSpalteArticle {
+	display: inline-block;
+	width: 26%;
+	margin: 0 40px;
+	overflow: hidden;
+	float: left;
+    opacity: 0;
+	}
+.infoIllustrasjon {
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+	}
+.treSpalteTittel {
+	font-weight: 300;
+	margin: 40px 0 20px 0;
+	text-align: center;
+	}
+.treSpalteArticle p {
+	font-weight: 300;
+	font-size: 1.3em;
+	}				
+	
+/*---------------SECTION 4 STEDER-------------------*/	
+#section4 {
+	background-color: #2b2b2b;
+	color: #efefef;
+	padding: 120px 0;
+	}
+#section4 .hovedTekst a:link, #section4 .hovedTekst a:visited{
+	color: #efefef;
+	}
+#stedTxt{
+    opacity: 0;
+}
+		
+
+/*---------------SECTION 5 DATAVISUALISERING-------------------*/
+#section5 {
+	padding: 120px 0;
+	}	
+#section5 img{
+    width: 20px;
+}
+.datavisRoedMann {
+	animation: menyFlash 1s linear infinite;
+	-webkit-animation: menyFlash 1s linear infinite;
+	-moz-animation: menyFlash 1s linear infinite;
+	-ms-animation: menyFlash 1s linear infinite;
+	-o-animation: menyFlash 1s linear infinite;
+	}	
+
+/*---------------SECTION 6 DAME-------------------*/
+.dameTekst {
+	margin: -500px 0 0 0;
+	position: absolute;
+	right: 17%;
+	font-size: 3.2em;
+	color: #efefef;
+	font-weight: 300;
+	}
+
+/*---------------SECTION 7 RØD-------------------*/
+#section7 {
+	background-color: #a50000;
+	padding: 120px 0 160px 0;
+	}
+#section7 .hovedTekst, #erLikTegn{
+	color: #efefef;
+	}	
+#section7innerWrapper{
+	margin-top: 90px;
+	display: block;
+	margin-left: 10%;
+	opacity: 0;
+	}
+#section7 img{
+	height: 15%;
+	max-height: 280px;
+	}		
+#blodposeHvit{
+	margin-right: 0px;
+	}
+#erLikTegn{
+	font-size: 130px;
+	display: inline;
+	}
+.mannHvit{
+	margin-left: 20px;
+	}	
+
+/*---------------SECTION 8 INFO & 10 INFO-------------------*/	
+#section8, #section10{
+	padding: 120px 0;
+	font-weight: 300;
+	}
+#section8infoTekstSynlig, #section8infoTekstSkjult, #section8lesMer, #section10infoTekstSynlig, #section10infoTekstSkjult, #section10lesMer{
+	font-size: 1.3em;
+	text-align: center;
+	}
+#section8lesMer, #section10lesMer{
+	font-weight: 700;
+	cursor: pointer;
+	}			
+#section8infoTekstSkjult, #section10infoTekstSkjult{
+	display: none;
+	}
+.infoTekstSpalte{
+	width: 40%;
+	display: inline-block;
+	float: left;
+	text-align: left;
+	margin: 50px 0 50px 80px;
+	}	
+#section8 a:link, #section8 a:visited, #regInfo a:link, #regInfo a:visited{
+	color: #a50000;
+	text-decoration: underline;
+	}
+#section8 a:hover, #regInfo a:hover {
+	font-weight: 700;
+	}
+
+/*--------------- SECTION 9 REGISTRERING-------------------*/
+#registrering{
+	background-color: #c8c8c8;
+	padding: 120px 0 160px 0;
+	}	
+#registrering .hovedTekst{
+	margin-bottom: 50px;
+	}	
+#regInfo p{
+	font-size: 1.3em;
+	font-weight: 300;
+	}	
+#regWrapper{
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+}
+.col-md-6{
+padding-left: 0 !important;
+}
+#regSkjema input {
+	display: block;
+	width: 80%;
+	background-color: #fff;
+	border: none;
+	margin: 10px;
+	height: 50px;
+	text-align: center;
+	font-style: italic;
+	font-size: 1.2em;
+	}	
+#registrerBtn {
+	margin-top: 25px !important;
+	font-style: normal !important;
+	background-color: #a50000 !important;
+	border-radius: 5px;
+	color: #efefef;
+	}
+	
+#registreringFerdigWrapper {
+	display: none;
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+	}
+
+#registreringFerdigTekst {
+	font-weight: 700;
+	}	
+	
+#registreringFerdigJegHarDetTekst {
+	margin-top: 30px;
+	color: #a50000 !important;
+	font-size: 3em;
+	font-weight: 700;
+	}
+	
+/*--------------- SECTION 11 PAR -------------------*/	
+.section11tittelTekst{
+	width: 300px;
+	position: relative;
+	margin-top: -500px;
+    opacity: 0;
+	}
+
+/*--------------- FOOTER-------------------*/
+#mainFooter{
+	background-color: #2b2b2b;
+	color: #efefef;
+	padding: 80px 0 120px 0;
+	}
+#mainFooter .tittelTekst{	
+	color: #efefef;
+	}
+#socialWrapper{
+	margin: 0 auto;
+	width: 300px;
+	display: block;
+	}	
+#socialWrapper img{
+	width: 60px;
+	margin: 0 20px 0 20px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	}	
+#socialWrapper img:hover{
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+}
+.footerTekst{
+	margin-top: 30px;
+	text-align: center;
+	}
+.footerTekst a:link, .footerTekst a:visited {
+	color: #efefef;
+	}		
+	
+#section1, #mobilRegBtnSection, #blodkalkulator, #section3, #section4, #section5, #section6, #section7, #section8, #registrering, #section10, #section11, #mainFooter{
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+/*---------------- ANIMATIONS -----------------*/	
+.animateIn{
+	animation: animateIn 0.8s 0s 1 forwards ease-out;
+	-webkit-animation: animateIn 0.8s 0s 1 forwards ease-out;
+	-moz-animation: animateIn 0.8s 0s 1 forwards ease-out;
+	-o-animation: animateIn 0.8s 0s 1 forwards ease-out;
+	-ms-animation: animateIn 0.8s 0s 1 forwards ease-out;
+	}
+
+.kolonne1AnimateIn{
+    animation: animateIn 0.8s 0s 1 forwards ease-out;
+	-webkit-animation: animateIn 0.8s 0s 1 forwards ease-out;
+	-moz-animation: animateIn 0.8s 0s 1 forwards ease-out;
+	-o-animation: animateIn 0.8s 0s 1 forwards ease-out;
+	-ms-animation: animateIn 0.8s 0s 1 forwards ease-out;
+}
+
+.kolonne2AnimateIn{
+    animation: animateIn 0.8s 0.4s 1 forwards ease-out;
+	-webkit-animation: animateIn 0.8s 0.4s 1 forwards ease-out;
+	-moz-animation: animateIn 0.8s 0.4s 1 forwards ease-out;
+	-o-animation: animateIn 0.8s 0.4s 1 forwards ease-out;
+	-ms-animation: animateIn 0.8s 0.4s 1 forwards ease-out;
+}
+
+.kolonne3AnimateIn{
+    animation: animateIn 0.8s 0.8s 1 forwards ease-out;
+	-webkit-animation: animateIn 0.8s 0.8s 1 forwards ease-out;
+	-moz-animation: animateIn 0.8s 0.8s 1 forwards ease-out;
+	-o-animation: animateIn 0.8s 0.8s 1 forwards ease-out;
+	-ms-animation: animateIn 0.8s 0.8s 1 forwards ease-out;
+}
+
+.animateInRight{
+	animation: animateInRight 0.8s 0s 1 forwards ease-out;
+	-webkit-animation: animateInRight 0.8s 0s 1 forwards ease-out;
+	-moz-animation: animateInRight 0.8s 0s 1 forwards ease-out;
+	-o-animation: animateInRight 0.8s 0s 1 forwards ease-out;
+	-ms-animation: animateInRight 0.8s 0s 1 forwards ease-out;
+	}
+
+@keyframes animateIn {
+	0%{transform: translateY(10px); opacity: 0;}
+	10%{transform: translateY(10px); opacity: 0;}
+	100%{transform: translateY(0px); opacity: 1;}
+}	
+
+@-webkit-keyframes animateIn {
+	0%{-webkit-transform: translateY(100px); opacity: 0;}
+	10%{-webkit-transform: translateY(100px); opacity: 0;}
+	100%{-webkit-transform: translateY(0px); opacity: 1;}
+}
+
+@-moz-keyframes animateIn {
+	0%{-moz-transform: translateY(100px); opacity: 0;}
+	10%{-moz-transform: translateY(100px); opacity: 0;}
+	100%{-moz-transform: translateY(0px); opacity: 1;}
+}
+
+@-o-keyframes animateIn {
+	0%{-o-transform: translateY(100px); opacity: 0;}
+	10%{-o-transform: translateY(100px); opacity: 0;}
+	100%{-o-transform: translateY(0px); opacity: 1;}
+}
+
+@-ms-keyframes animateIn {
+	0%{-ms-transform: translateY(100px); opacity: 0;}
+	10%{-ms-transform: translateY(100px); opacity: 0;}
+	100%{-ms-transform: translateY(0px); opacity: 1;}
+}
+--------------------------------------
+
+@keyframes animateInRight {
+	0%{transform: translateX(100%); opacity: 0;}
+	10%{transform: translateX(100%); opacity: 0;}
+	100%{transform: translateX(0%); opacity: 1;}
+}	
+
+@-webkit-keyframes animateInRight {
+	0%{-webkit-transform: translateX(100%); opacity: 0;}
+	10%{-webkit-transform: translateX(100%); opacity: 0;}
+	100%{-webkit-transform: translateX(0%); opacity: 1;}
+}
+
+@-moz-keyframes animateInRight {
+	0%{-moz-transform: translateX(100%); opacity: 0;}
+	10%{-moz-transform: translateX(100%); opacity: 0;}
+	100%{-moz-transform: translateX(0%); opacity: 1;}
+}
+
+@-o-keyframes animateInRight {
+	0%{-o-transform: translateX(100%); opacity: 0;}
+	10%{-o-transform: translateX(100%); opacity: 0;}
+	100%{-o-transform: translateX(0%); opacity: 1;}
+}
+
+@-ms-keyframes animateInRight {
+	0%{-ms-transform: translateX(100%); opacity: 0;}
+	10%{-ms-transform: translateX(100%); opacity: 0;}
+	100%{-ms-transform: translateX(0%); opacity: 1;}
+}
+----------------------------------------
+
+@keyframes scrollHint {
+	0%{transform: translateY(0px);}
+	50%{transform: translateY(50px);}
+	100%{transform: translateY(0px);}
+}
+
+@-webkit-keyframes scrollHint {
+	0%{-webkit-transform: translateY(0px);}
+	50%{-webkit-transform: translateY(50px);}
+	100%{-webkit-transform: translateY(0px);}
+}
+
+@-moz-keyframes scrollHint {
+	0%{-moz-transform: translateY(0px);}
+	50%{-moz-transform: translateY(50px);}
+	100%{-moz-transform: translateY(0px);}
+}
+
+@-o-keyframes scrollHint {
+	0%{-o-transform: translateY(0px);}
+	50%{-o-transform: translateY(50px);}
+	100%{-o-transform: translateY(0px);}
+}
+
+@-ms-keyframes scrollHint {
+	0%{-ms-transform: translateY(0px);}
+	50%{-ms-transform: translateY(50px);}
+	100%{-ms-transform: translateY(0px);}
+}
+
+@keyframes menyFlash {
+	0%{transform: scale(1,1);}
+	50%{transform: scale(1.1,1.1);}
+	100%{transform: scale(1,1);}
+}
+@-webkit-keyframes menyFlash {
+	0%{-webkit-transform: scale(1,1);}
+	50%{-webkit-transform: scale(1.1,1.1);}
+	100%{-webkit-transform: scale(1,1);}
+}
+@-moz-keyframes menyFlash {
+	0%{-moz-transform: scale(1,1);}
+	50%{-moz-transform: scale(1.1,1.1);}
+	100%{-moz-transform: scale(1,1);}
+}
+@-ms-keyframes menyFlash {
+	0%{-ms-transform: scale(1,1);}
+	50%{-ms-transform: scale(1.1,1.1);}
+	100%{-ms-transform: scale(1,1);}
+}
+@-o-keyframes menyFlash {
+	0%{-o-transform: scale(1,1);}
+	50%{-o-transform: scale(1.1,1.1);}
+	100%{-o-transform: scale(1,1);}
+}	
+	
+/*----------------MEDIA QUERIES -----------------*/
+@media(max-width:767px){
+	.navbar-inverse .navbar-nav > li:first-of-type {
+	    -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+    #blodLogo {
+		width: 200px;
+	}
+	#section1 img {
+	margin-top: 35px;
+	}
+	.tittelTekst {
+	top: 29%;
+	width: 43%;
+	padding-left: 2px;
+	}
+	.tittelLinje1, .tittelLinje2 {
+	font-size: 1.35em;
+	margin-top: -10px;
+	}
+	#toppScrollTekst {
+	display: none;
+	}
+    #mobilRegBtnSection {
+        display: block;
+        padding: 30px 0;
+        background-color: #2b2b2b;
+    }
+    #mobilRegBtnSection a input{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    #mobilRegBtnSection a:link, #mobilRegBtnSection a:visited {
+        text-decoration: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+    #mobilRegBtn {
+        background: none;
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+        font-size: 1em;
+        height: 50px;
+	    font-style: normal !important;
+	    background-color: #a50000 !important;
+        border: none;
+	    border-radius: 5px;
+	    color: #efefef;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+    }
+	#kalkulatorWrapper {
+	padding: 40px 0 80px 0;
+	}	
+	.hovedTekst {
+	font-size: 1.5em;
+	}
+	#kalkulatorWrapper input {
+	display: block;
+	width: 90%;
+	font-size: 1em;
+	}
+	#kalkulerBtn {
+	margin-top: 5px !important;
+	}
+    #tilRegistreringBtn {
+    width: 90%;
+    }
+	#section3 {
+	padding: 50px 0;
+	}
+	.treSpalteArticle {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	float: none;
+	}
+	.treSpalteTittel {
+	font-size: 2em;
+	margin-top: 20px;
+	}
+	.infoIllustrasjon {
+	width: 40%;
+	margin: 0 auto;
+	display: block;
+	}
+	.treSpalteWrapper {
+	padding: 0 5%;
+	}
+	#section4, #section5 {
+	padding: 50px 0;
+	}
+	#section5 img{
+	width: 10px;
+	margin: -2px;
+    margin-top: -5px;
+	}
+    .dameTekst{
+    right: 8%;    
+    width: 30%;
+    margin: -120px 0 0 0;
+    font-size: 1.3em;
+    }
+    #section7, #section8 {
+    padding: 50px 0;
+    }
+    #section7innerWrapper {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;    
+
+    }
+    #section7innerWrapper img{
+    height: 80px;
+    }
+    #erLikTegn {
+    font-size: 1.7em;
+    }
+    #section8{
+        padding: 50px 20px;
+    }
+    .infoTekstSpalte{
+    width: 90%;
+    margin: 15px auto;    
+    }
+    #registrering{
+    padding: 50px 20px;
+    }
+    #regSkjema{
+    margin: 0 auto;
+    }
+    #regSkjema input{
+    display: block;
+    width: 100%;
+    }
+    #regInfo{
+    margin-top: 30px;
+    }
+    #registreringFerdigWrapper p:first-child {
+    font-size: 2.2em;    
+    }
+    #registreringFerdigWrapper .hovedTekst{
+    margin: 20px auto;
+    margin-bottom: -5px;
+    }
+    #registreringFerdigJegHarDetTekst{
+        font-size: 1.4em;
+    }
+    #section10 {
+    padding: 50px 10px;    
+    }
+    #section10infoTekstSkjult {
+    width: 95%;
+    margin: 0 auto;    
+    }
+    .section11tittelTekst {
+    margin-top: -100px;
+    }
+    #mainFooter{
+    padding: 50px 0;
+    }
+    
+    #section1, #mobilRegBtnSection, #blodkalkulator, #section3, #section4, #section5, #section6, #section7, #section8, #registrering, #section10, #section11, #mainFooter{
+        max-width: 100%;
+        overflow: hidden;
+    }
+}
+@media(min-width:768px){
+	#blodLogo {
+	width: 130px;
+	margin-top: 5px;
+	}
+	.tittelLinje1, .tittelLinje2 {
+	font-size: 1.7em;
+	margin-top: -2px;
+	}
+	#toppScrollTekst {
+	display: none;
+	}
+    #kalkInputWrapper {
+	width: 100%;
+    }
+    #kalkulatorWrapper input {
+    width: 40%;    
+    }
+    .treSpalteArticle {
+	display: inline-block;
+	width: 26%;
+	margin: 0 3%;
+	}
+    #section5 img{
+    width: 15px;
+    }
+    .dameTekst {
+    right: 8%;    
+    width: 30%;
+    margin: -280px 0 0 0;
+    font-size: 2.5em;
+    }
+    #section7 img{
+	height: 180px;
+	}
+	#section7innerWrapper{
+	margin-top: 10px;
+    }
+    .infoTekstSpalte{
+	margin: 20px 30px;
+	}
+    #regSkjema {
+    margin-bottom: 30px;    
+    }
+    #regSkjema input {
+	margin: 10px auto;
+	}
+    #regInfo p {
+    width: 80%;
+    margin: 0 auto;
+    }
+    .section11tittelTekst {
+    margin-top: -180px;
+    }
+
+}
+@media(min-width:992px){
+	#blodLogo {
+	width: 195px;
+	margin: 0 auto;
+	}
+	.tittelLinje1, .tittelLinje2 {
+	font-size: 2.3em;
+	margin-top: -2px;
+	}
+	#toppScrollTekst {
+	display: none;
+	}
+    #kalkInputWrapper {
+	width: 85%;
+    }
+    .dameTekst {
+	margin: -400px 0 0 0;
+	font-size: 3.2em;
+    }
+    #section7innerWrapper{
+	margin-top: 90px;
+	display: block;
+	margin-left: 10%;
+	opacity: 0;
+	}
+    #section7 img{
+	height: 15%;
+	max-height: 280px;
+	}
+    .infoTekstSpalte{
+	margin: 50px 0 50px 80px;
+	}
+    .section11tittelTekst{
+	margin-top: -450px;
+    }
+}
+@media(min-width:1200px){
+	#blodLogo {
+		width: 230px;
+		margin: 0 auto;
+		}
+	#toppScrollTekst {
+	display: block;
+	}
+    .dameTekst {
+	margin: -500px 0 0 0;
+	font-size: 4em;
+    }
+    #section5 img{
+    width: 20px;
+    }
+}			
+
+	
+	
